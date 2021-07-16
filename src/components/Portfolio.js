@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Project from "./Project"
 
 function Portfolio() {
-    const [projects, setProjects] = useState([
+    const [projects] = useState([
         {
             title: "Dateable-date-planner",
             github: "https://github.com/ziffoit/Dateable-date-planner",

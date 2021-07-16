@@ -5,7 +5,7 @@ function Project(props) {
     return(
         <>
         <div className="projectCard" key={props.projects.title}>
-            <img src={require(`../assets/images/${props.projects.title}.png`).default}/>
+            <img src={require(`../assets/images/${props.projects.title}.png`).default} alt="deployed project"/>
             <div>
                 <h1>
                     {props.projects.title}
