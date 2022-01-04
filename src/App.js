@@ -12,7 +12,7 @@ function App() {
     return (
         <Router>
             <div className="App">
-            <Nav></Nav>
+                <Nav></Nav>
                 <Switch>
                     <Route path="/about">
                         <About />
@@ -24,7 +24,7 @@ function App() {
                         <Resume />
                     </Route>
                 </Switch>
-              <Footer></Footer>  
+                <Footer></Footer>
             </div>
         </Router>
     );
